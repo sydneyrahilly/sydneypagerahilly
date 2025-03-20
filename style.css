@@ -1,0 +1,118 @@
+a:link{
+    color:#50779a
+  }
+  
+  a:hover{
+    color:#3eaf0a;
+    font-size: 1.1em;
+  }
+  a:active{
+    color:#2a5174;
+    font-size:1.1em;
+  }
+  
+  
+
+  .header {
+      color:#f2bfe2;
+      font-size:20px;
+      font-family:'League Script'
+  }
+  .aboutme {color:#50779a;}
+    li {color:#50779a;}
+  .contact{
+      color:#f2bfe2;
+      font-size:20px
+    }
+
+  
+  .headshot {
+    background-color:#f2bfe2;
+    height:150px;
+    width:110px;
+    border:8px,dotted,#50779a;
+    margin-left: 225px;
+  }
+  
+  /*this is how you comment in style*/
+  
+  .menu { 
+  /* background-color: white;  */
+  width: 100vw; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 1.5rem;   
+    
+  }
+  
+  .button { 
+  background-color: transparent; 
+  padding: 15px;
+  border: 0px solid black; 
+    border-radius: 13px; }
+    
+    a:visited { 
+    color: black;
+
+    } 
+  
+   a:hover { 
+    color: pink;
+    } 
+
+
+     
+    .MainBanner { 
+      background-image: url('https://cdn.glitch.global/dfddba94-4900-4e08-9f9b-c6bb6a8a289c/Screenshot%202025-03-11%20at%202.06.11%E2%80%AFPM.png?v=1741727194260');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 98vw;
+      height: 50vh;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+
+  } 
+
+  .newText {
+    color:#f2bfe2;
+    font-size:3rem;
+    font-family:'League Script'
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.ImageMain { 
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 15vh;
+
+}
+
+
+
+/*FONT*/
+
+
+
+
+.background {
+  background-color:floralwhite;
+}
+
+* {
+  background-color:floralwhite; }
+
+   a {font-family: "League-Script", cursive;
+      font-size: 18px; 
+      text-decoration: none;}
+  
+
+  }
