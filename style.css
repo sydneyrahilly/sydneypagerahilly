@@ -11,7 +11,6 @@ a:link{
     font-size:1.1em;
   }
   
-  
 
   .header {
       color:#50779a;
@@ -25,19 +24,14 @@ a:link{
       font-size:20px
     }
 
-  
-  .headshot {
-    background-color:#50779a;
-    height:150px;
-    width:110px;
-    border:8px,dotted,#50779a;
-    margin-left: 225px;
+  .h1 {
+    color:#50779a;
   }
+
   
   /*this is how you comment in style*/
   
   .menu { 
-  /* background-color: white;  */
   width: 100vw; 
   display: flex; 
   justify-content: center; 
