@@ -59,6 +59,7 @@ a:link{
   
    a:hover { 
     color: #50779a;
+    transform: scale(1.2);
     } 
 
 
