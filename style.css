@@ -5,6 +5,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+font-family:'League Script';
 
 
 a:link{
@@ -24,7 +25,7 @@ a:link{
   .header {
       color:#50779a;
       font-size:20px;
-      font-family:'League Script'
+      font-family:'League Script';
   }
   .aboutme {color:#50779a;}
     li {color:#50779a;}
@@ -34,7 +35,9 @@ a:link{
     }
 
   .h1 {
-    color:#50779a;
+      font-size:20px;
+      font-family:'League Script';
+      color:#50779a;
   }
 
   
@@ -73,6 +76,14 @@ a:link{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center; /* Centers text inside the container */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.name {
+  font-size: 2rem; /* Adjust size of your name */
+  margin-bottom: 20px; /* Space between name and image */
 }
 
 /* Image styling */
@@ -81,7 +92,7 @@ a:link{
   max-height: 100%;
   object-fit: contain;
 
-
+}
 
 
 
