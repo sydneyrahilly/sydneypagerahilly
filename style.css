@@ -6,77 +6,66 @@
     box-sizing: border-box;
   }
   
-  html, body {
+  html, body, {
     margin: 0;
     padding: 0;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'League Script', cursive;
+    
+  }
+
+  h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: ;
   }
   
   /* ====================
      Typography
      ==================== */
-  /* a {
-    font-family: 'League Script', cursive;
-    font-size: 18px;
-    text-decoration: none;
-  } */
-  
-  /* Headings and Text Blocks */
-  /* .h1, .header, .contact {
-    font-size: 20px;
-    font-family: 'League Script', cursive;
-    color: #50779a;
-  }
-  
-  .aboutme, li {
-    color: #50779a;
-  }
-  
-  .name {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .newText {
-    color: #f2bfe2;
-    font-size: 3rem;
-    font-family: 'League Script', cursive;
-  }
-   */
+    a {
+ 
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-decoration: none;
+        color: #50779a;
+  } 
+
+
   /* ====================
      Link States
      ==================== */
-  /* a:link {
+  a:link {
     color: #50779a;
   }
   
   a:visited {
-    color: black;
-  } */
+    color: #50779a;
+  } 
   
-  /* a:hover {
+  a:hover {
     color: #50779a;
     font-size: 1.1em;
     transform: scale(1.2); /* Slight zoom effect on hover */
-  } */
+  } 
   
-  /* a:active {
+   a:active {
     color: #2a5174;
     font-size: 1.1em;
-  } */
+  } 
   
   /* ====================
      Layout and Components
      ==================== */
-  /* .menu {
+   .menu {
     width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: ;
     gap: 1.5rem;
   } */
   
@@ -142,3 +131,113 @@
   }
   */
   
+
+  .montserrat-alternates-thin {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-extralight {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-light {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-medium {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-semibold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-bold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-extrabold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-black {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-thin-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-extralight-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-light-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-regular-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-medium-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-semibold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-bold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-extrabold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-black-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  p { margin-top: 0px;}
