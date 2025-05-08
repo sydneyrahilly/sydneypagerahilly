@@ -35,28 +35,7 @@
   } 
 
 
-  /* ====================
-     Link States
-     ==================== */
-  a:link {
-    color: #50779a;
-  }
-  
-  a:visited {
-    color: #50779a;
-  } 
-  
-  a:hover {
-    color: #50779a;
-    font-size: 1.1em;
-    transform: scale(1.2); /* Slight zoom effect on hover */
-  } 
-  
-   a:active {
-    color: #50779a;
-    font-size: 1.1em;
-  } 
-  
+
   /* ====================
      Layout and Components
      ==================== */
@@ -242,3 +221,26 @@
   
   p { margin-top: 0px;
     margin-bottom: 0px;}
+
+      /* ====================
+     Link States
+     ==================== */
+  a:link {
+    color: #50779a;
+  }
+  
+  a:visited {
+    color: #50779a;
+  } 
+  
+  a:hover {
+    color: #50779a !important;
+    font-size: 1.1em;
+    transform: scale(1.2); /* Slight zoom effect on hover */
+  } 
+  
+   a:active {
+    color: #50779a;
+    font-size: 1.1em;
+  } 
+  
