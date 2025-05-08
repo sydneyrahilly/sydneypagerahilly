@@ -1,153 +1,144 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-font-family:'League Script';
-
-
-a:link{
-    color:#50779a
+/* ====================
+   Reset and Base Styles
+   ==================== */
+   * {
+    background-color: floralwhite;
+    box-sizing: border-box;
   }
   
-  a:hover{
-    color:#50779a;
-    font-size: 1.1em;
-  }
-  a:active{
-    color:#2a5174;
-    font-size:1.1em;
-  }
-  
-
-  .header {
-      color:#50779a;
-      font-size:20px;
-      font-family:'League Script';
-  }
-  .aboutme {color:#50779a;}
-    li {color:#50779a;}
-  .contact{
-      color:#50779a;
-      font-size:20px
-    }
-
-  .h1 {
-      font-size:20px;
-      font-family:'League Script';
-      color:#50779a;
-  }
-
-  
-  /*this is how you comment in style*/
-  
-  .menu { 
-  width: 100vw; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  gap: 1.5rem;   
-    
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'League Script', cursive;
   }
   
-  .button { 
-  background-color: transparent; 
-  padding: 15px;
-  border: 0px solid black; 
-    border-radius: 13px; }
-    
-    a:visited { 
-    color: black;
-
-    } 
-  
-   a:hover { 
-    color: #50779a;
-    transform: scale(1.2);
-    } 
-
-
-     /* Container to center the image */
-.image-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; /* Centers text inside the container */
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.name {
-  font-size: 2rem; /* Adjust size of your name */
-  margin-bottom: 20px; /* Space between name and image */
-}
-
-/* Image styling */
-.responsive-img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-
-}
-
-
-
-   /*DO YOU NEED THIS
-    .MainBanner { 
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 98vw;
-      height: 50vh;
-      display: flex;
-      justify-items: center;
-      align-items: center;
-
+  /* ====================
+     Typography
+     ==================== */
+  /* a {
+    font-family: 'League Script', cursive;
+    font-size: 18px;
+    text-decoration: none;
   } */
-
-  .newText {
-    color:#f2bfe2;
-    font-size:3rem;
-    font-family:'League Script'
-}
-
-img {
-  width: 100%;
-  height: 100%;
-}
-
-
-/* DO YOU NEED THIS
-
-.ImageMain { 
   
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-top: 15vh;
-
-} */
-
-
-
-/*FONT*/
-
-
-
-
-.background {
-  background-color:floralwhite;
-}
-
-* {
-  background-color:floralwhite; }
-
-   a {font-family: "League-Script", cursive;
-      font-size: 18px; 
-      text-decoration: none;}
-  
-
+  /* Headings and Text Blocks */
+  /* .h1, .header, .contact {
+    font-size: 20px;
+    font-family: 'League Script', cursive;
+    color: #50779a;
   }
+  
+  .aboutme, li {
+    color: #50779a;
+  }
+  
+  .name {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .newText {
+    color: #f2bfe2;
+    font-size: 3rem;
+    font-family: 'League Script', cursive;
+  }
+   */
+  /* ====================
+     Link States
+     ==================== */
+  /* a:link {
+    color: #50779a;
+  }
+  
+  a:visited {
+    color: black;
+  } */
+  
+  /* a:hover {
+    color: #50779a;
+    font-size: 1.1em;
+    transform: scale(1.2); /* Slight zoom effect on hover */
+  } */
+  
+  /* a:active {
+    color: #2a5174;
+    font-size: 1.1em;
+  } */
+  
+  /* ====================
+     Layout and Components
+     ==================== */
+  /* .menu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  } */
+  
+  /* .button {
+    background-color: transparent;
+    padding: 15px;
+    border: 0;
+    border-radius: 13px;
+  } */
+  
+  /* ====================
+     Images and Containers
+     ==================== */
+  /* .image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+  } */
+  
+  /* .responsive-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  } */
+  
+  /* img {
+    width: 100%;
+    height: 100%;
+  } */
+  
+  /* ====================
+     Background
+     ==================== */
+  /* .background {
+    background-color: #FFFCF4;
+  } */
+  
+  /* ====================
+     Potentially Unused / Review These
+     ==================== */
+  
+  /*
+  .MainBanner {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 98vw;
+    height: 50vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .ImageMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15vh;
+  }
+  */
+  
