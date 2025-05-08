@@ -17,9 +17,9 @@
   }
 
   h1 {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 100;
-    font-style: ;
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
   
   /* ====================
@@ -243,4 +243,10 @@
     color: #50779a;
     font-size: 1.1em;
   } 
+  
+  .pinyon-script-regular {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
   
