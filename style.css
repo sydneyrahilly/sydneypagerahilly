@@ -240,4 +240,5 @@
     font-style: italic;
   }
   
-  p { margin-top: 0px;}
+  p { margin-top: 0px;
+    margin-bottom: 0px;}
