@@ -17,6 +17,9 @@
     font-weight: 400;
     font-style: normal;
     color: #50779a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .pinyon-script-regular {
